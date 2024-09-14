@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.container{
+    height: 70vh;  /*viewport height mane jotota area visible hbe oto tar 70%. */
+    display: flex; 
+    
+    gap: 1.5vmin;
+    justify-content: center; /*Item gula center theke e start hbe*/
+    align-items: center; /*Sob item center e jbe*/
+}
+.game{
+    height: 60vmin;
+    width: 60vmin; /*60 percent height of the page*/
+    display: flex; /*Mane holo element gulo aktar por akta bosbe*/
+    flex-wrap: wrap; /*wrap text er e moton jaga na thakle next line e transfer korbe box gulo k.*/
+    gap: 1.5vmin;
+    justify-content: center; /*Item gula center theke e start hbe*/
+    align-items: center; /*Sob item center e jbe*/
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: aquamarine;
+}
+/* .resetcontainer{
+    justify-content: center;
+    align-items: center;
+} */
+.reset{
+    height: 6vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 2vmin;
+    
+
+}
+.new-game{
+    height: 6vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 2vmin;
+}
+.msg{
+    color: blue;
+    font-size: 5vmin;
+}
+.space{
+    height: 2vmin;
+}
+.hide{
+    display: none;
+}
